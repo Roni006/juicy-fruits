@@ -1,0 +1,33 @@
+/* @media(max-width:){} */
+@media(max-width:1050px){
+    .header-top-row{ 
+
+    }
+    input {
+        padding: 15px 150px 15px 15px;
+    }
+}
+
+@media(max-width: 800px){
+    .menus{
+        display: none;
+    }
+}
+
+
+@media(max-width:730px){
+    .input{
+        display: none;
+    }
+}
+
+@media(max-width:475px){
+    .products{
+        /* display: none; */
+        /* visibility: hidden; */
+    }
+    .header-top-row{
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+}
