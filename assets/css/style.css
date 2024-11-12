@@ -16,6 +16,8 @@ VERSION         : 1.0.0
     --hero-bg: #C9EEDD;
     --catbar-bg: #F7F7F8;
     --catquan-color: #767C7D;
+    --product-border: #F3F0EE;
+    --subtitle-color:#575757;
 }
 
 /* ENITAL SET UP  */
@@ -27,6 +29,7 @@ VERSION         : 1.0.0
 
 body {
     font-family: var(--headingn-body-font);
+    margin-bottom: 200px;
 
 }
 
@@ -287,6 +290,100 @@ input {
     gap: 15px;
 }
 /*CATEGORY SECTION END */
+
+/*PRODUCT SECTION START */
+.product-section{
+    padding: 20px 0;
+}
+.product-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.bar-bg{
+    background-color: var(--catbar-bg);
+    width: 310px;
+    padding: 18px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bar-bg{
+    background-color: var(--catbar-bg);
+    width: 310px;
+    padding: 18px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-bottom: 10px;
+} 
+.bar-bg .bar-icon:hover{
+    padding-right: 8px;
+    transition: 0.2s;
+    color: var(--input-border-color);
+}
+.bar-title h5{
+    font-weight: 800;
+}
+.single-product-row{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 15px;
+    margin: 72px 0;
+}
+.product-block1{
+     border: 1px solid var(--product-border);
+     padding: 15px;
+     text-align: center;
+}
+.sb-subtitle p{
+    font-size: 16px;
+    color: var(--subtitle-color);
+    padding: 16px 0;
+}
+.sb-title h5{
+    margin-bottom: 16px; 
+    font-weight: 800;
+}
+.sb-prices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: var(--subtitle-color);
+}
+.sell-prce h4{
+    color: var(--input-border-color);
+    font-weight: 800;
+}
+.reviews{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+.rating {
+    color: var(--subtitle-color);
+}
+.product-block1{
+    position: relative;
+} 
+.product-block1 .bag-shape{
+    background-color: var(--product-border);
+    width: 35px;
+    height: 35px; 
+    margin: 0 auto; 
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 180px;
+    left: 105px; 
+} 
+/*PRODUCT SECTION END */
 
 /* SECTION START */
 /* SECTION END */

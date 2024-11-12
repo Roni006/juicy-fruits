@@ -32,6 +32,17 @@
     .catbar{
         width:610px;
     }
+    .single-product-row{
+        flex-wrap: wrap;
+        margin: 0;
+        padding-top: 30px;
+    } 
+    .product-row{
+        gap: 0;
+        flex-wrap: wrap;
+        padding: 0 15px;
+        justify-content: center;
+    }
 }
 
 @media(max-width: 800px){
