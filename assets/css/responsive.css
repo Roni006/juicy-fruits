@@ -2,8 +2,11 @@
 @media(max-width: 1200px){
     .catbar{
         padding: 24px 50px;
-        width: 350px;
-        
+        width: 350px;  
+    }
+    .service-row{
+        flex-wrap: wrap;
+        justify-content: center;
     }
     
 }
@@ -90,5 +93,9 @@
     }
     .catbar{
         width: 300px;
+    }
+    .service-block{
+        padding: 20px 15px;
+        width: 280px;
     }
 }
