@@ -19,6 +19,8 @@ VERSION         : 1.0.0
     --product-border: #F3F0EE;
     --subtitle-color:#575757;
     --service-block-bg: #F6F7F9;
+    --deal-bg: #F3DDCD;
+    --deal-text-color: #C71725;
 }
 
 /* ENITAL SET UP  */
@@ -387,7 +389,9 @@ input {
 /*PRODUCT SECTION END */
 
 /*SERVICE SECTION START */
-
+.service-section{
+    padding-bottom: 40px;
+}
 .service-row{
     display: flex;
     align-items: center;
@@ -409,6 +413,56 @@ input {
     font-size: 16px;
 }
 /*SERVICE SECTION END */
+
+/*GREAT DEAL SECTION START */
+.great-deal{
+    background-image: url(../img/deal-bg.png); 
+    padding: 120px 0;
+    background-size: cover;
+}
+.great-deal-content{
+    background-color: var(--deal-bg);
+    width: 500px;
+    padding: 32px 18px;
+}
+.gd-schedule{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.gd-subtitle h4{
+    font-weight: 800; 
+    padding-bottom: 15px;
+}
+.gd-subtitle h4 span{ 
+    color: var(--deal-text-color);
+    margin-right: 8px;
+} 
+.gd-title h2{
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.gd-info p{
+    width: 470px;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.schedule1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.schedule1 .colon p{
+    font-size: 38px;
+}
+.schedule1 .days h2{
+    font-weight: 800;
+}
+.schedule1 .days p{
+    color: var(--catquan-color);
+    margin-top: 8px;
+}
+/*GREAT DEAL SECTION END */
 
 /* SECTION START */
 /* SECTION END */
