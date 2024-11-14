@@ -8,6 +8,17 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+    .great-deal{
+        padding: 60px 0;
+    }
+    .great-deal-content{ 
+        width: 450px;
+        padding: 25px 18px;
+    }
+    .gd-info p{
+        width: 400px; 
+        margin-bottom: 10px;
+    }
     
 }
 @media(max-width: 1150px){
@@ -45,6 +56,9 @@
         flex-wrap: wrap;
         padding: 0 15px;
         justify-content: center;
+    } 
+    .great-deal{
+        padding: 80px 0;
     }
 }
 
@@ -57,6 +71,10 @@
     }
     .catbar{
         width: 450px;
+    }
+    .great-deal{
+        background-position: center; 
+        padding: 80px 20px;
     }
 }
 
@@ -84,6 +102,10 @@
     .category-images img{
         width: 100%;
     }
+    .great-deal{
+        background-position: center; 
+        padding: 60px 20px;
+    }
 }
 
 @media(max-width:475px){ 
@@ -97,5 +119,32 @@
     .service-block{
         padding: 20px 15px;
         width: 280px;
+    }
+    .great-deal-content {
+        width: 350px;
+        padding: 15px 15px;
+    }
+    .gd-info p {
+        width: 320px;
+        margin-bottom: 10px;
+        text-align: justify;
+    }
+    .gd-title h2{
+        font-size: 25px;
+    }
+    .schedule1 .days h2{
+        font-size: 20px;
+    }
+    .great-deal{
+        padding: 50px 0;
+    }
+}
+@media(max-width: 375){
+    .great-deal{
+        padding: 0 100px;
+    }
+    .great-deal-content{
+        padding: 0;
+        width: 250px;
     }
 }
