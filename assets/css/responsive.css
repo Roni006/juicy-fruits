@@ -139,12 +139,15 @@
         padding: 50px 0;
     }
 }
-@media(max-width: 375){
+@media(max-width:375px){
     .great-deal{
-        padding: 0 100px;
+        padding: 18px 10px;
     }
     .great-deal-content{
-        padding: 0;
+        padding: 8px;
+        width: 320px;
+    }
+    .gd-info p{
         width: 250px;
     }
 }
