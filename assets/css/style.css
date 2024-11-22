@@ -21,6 +21,7 @@ VERSION         : 1.0.0
     --service-block-bg: #F6F7F9;
     --deal-bg: #F3DDCD;
     --deal-text-color: #C71725;
+    --testimonial-bg: #F3F3F3;
 }
 
 /* ENITAL SET UP  */
@@ -464,6 +465,53 @@ input {
     margin-top: 8px;
 }
 /*GREAT DEAL SECTION END */
+
+/*TESTIMONIAL SECTION START */
+.testimonial-section{ 
+    padding: 50px 0;
+}
+.testimonial-row{
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+}
+.test-bg{
+    background-color: var(--testimonial-bg);
+    width: 415px;
+    padding: 90px 20px 55px 20px;
+    position: relative;
+    text-align: center;
+}
+.test-img img {
+    position: absolute;
+    top: -65px;
+    left: 150px;
+}
+.test-titles h3{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.test-titles span{
+    color: var(--catquan-color);
+}
+.test-info p{
+    color: var(--catquan-color);
+    margin :25px 0px;
+}
+.shape img{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.shape2 img{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    transform: rotateX(180deg);
+}
+/*TESTIMONIAL SECTION END */
 
 /* SECTION START */
 /* SECTION END */
