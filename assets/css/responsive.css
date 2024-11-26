@@ -64,6 +64,12 @@
         flex-wrap: wrap;
         row-gap: 100px;
     }
+    .nb-row{ 
+    flex-wrap: wrap;
+    }
+    .nb-blck1{
+        margin-top: 40px;
+    }
 }
 
 @media(max-width: 800px){
@@ -155,6 +161,16 @@
         width: 100%;
         text-align: justify;
     }
+    .nb-blck1{
+        width: 400px;
+    }
+    .nb-img img{
+        width: 100%;
+    }
+    .nb-upbanner {
+        top: 375px;
+        right: 25px;
+    }
 }
 @media(max-width:375px){
     .great-deal{
@@ -166,5 +182,9 @@
     }
     .gd-info p{
         width: 250px;
+    }
+    .nb-upbanner {
+        top: 340px;
+        right: 20px;
     }
 }
