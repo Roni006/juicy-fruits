@@ -72,6 +72,16 @@
     }
 }
 
+
+@media(max-width: 950px){
+    .footer-row{
+        flex-wrap: wrap;
+    }
+    .mt{
+        margin-top: 30px;
+    }
+}
+
 @media(max-width: 800px){
     .menus{
         display: none;
